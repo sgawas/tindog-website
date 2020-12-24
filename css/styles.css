@@ -56,6 +56,19 @@ h1{
     margin-left: 15%;
 }
 
+.title-img {
+    animation: rotation 6s infinite alternate;
+}
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(45deg);
+    }
+}
+
 /* features section */
 
 #features {
@@ -88,7 +101,6 @@ h3 {
 /* testimonial section */
 
 #testimonials {
-    padding: 5% 15% 5%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -98,6 +110,10 @@ h2{
     font-family: 'Montaga-Black';
     line-height: 1.2;
     font-size: 3rem;
+}
+
+.carousel-item{
+    padding: 5% 15% 5%;
 }
 
 .testimonial-img{
@@ -127,3 +143,6 @@ h2{
      width: 15%;
      margin: 20px 20px 50px;
 }
+
+/* slider section */
+
