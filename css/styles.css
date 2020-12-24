@@ -41,6 +41,31 @@ h1{
 /* title image */
 .title-img{
     width: 60%;
-    /* transform: rotate(25deg); */
+    transform: rotate(25deg);
     height: 100%;
+}
+
+/**/
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Montaga-Black';
+    font-weight: 800;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
