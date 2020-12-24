@@ -7,7 +7,7 @@ body{
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 10%;
 }
 
 h1{
@@ -30,7 +30,14 @@ h1{
 
 .nav-item{
     padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: whitesmoke;
+    font-weight: bold;
     font-size: 1.5rem;
+    transition: all 1.25s ease-out;
 }
 
 /* Download buttons */
@@ -38,17 +45,21 @@ h1{
     margin: 5% 3% 5% 0;
 }
 
+.download-button:hover{
+    transition: all 1.25s ease-out;
+}
 /* title image */
 .title-img{
     width: 60%;
     transform: rotate(25deg);
     height: 100%;
+    margin-left: 15%;
 }
 
-/**/
+/* features section */
 
 #features {
-    padding: 7% 15%;
+    padding: 5% 15% 3.5%;
 }
 
 .feature-box{
@@ -64,8 +75,55 @@ h3 {
 .icon {
     color: #ef8172;
     margin-bottom: 1.5rem;
+    transition: all 1s ease-out;
+    font-weight: 900;
 }
 
 .icon:hover {
     color: #ff4c68;
+    transition: all 1s ease-out;
+    transform: scale(1.5); 
+}
+
+/* testimonial section */
+
+#testimonials {
+    padding: 5% 15% 5%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montaga-Black';
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.dog-heart{
+    color: #ff4c68;
+    transition: all 1.25s ease-out;
+}
+
+.dog-heart:hover{
+    transform: scale(1.2);
+    transition: all 1.30s ease-out;
+    color: #ff4c68;
+}
+
+ /*  press section */
+#press{
+     text-align: center;
+     padding-bottom: 3%;
+     background-color: #ef8172;
+}
+
+.press-logo{
+     width: 15%;
+     margin: 20px 20px 50px;
 }
