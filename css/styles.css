@@ -144,5 +144,20 @@ h2{
      margin: 20px 20px 50px;
 }
 
-/* slider section */
+/* pricing section */
+#pricing{
+    padding: 80px;
+    text-align: center;
+    font-family: 'Montaga-Black', sans-serif;
+}
 
+.card{
+    border: 1px solid grey;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+#pricing h2, .card-header h3{
+    font-weight: 800;
+}
