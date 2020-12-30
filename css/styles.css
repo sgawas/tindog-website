@@ -7,7 +7,7 @@ body{
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 10% 7%;
 }
 
 h1{
@@ -48,16 +48,19 @@ h1{
 .download-button:hover{
     transition: all 1.25s ease-out;
 }
+
+.title-desc{
+    padding-top: 7%;
+}
+
 /* title image */
 .title-img{
     width: 60%;
     transform: rotate(25deg);
     height: 100%;
     margin-left: 15%;
-}
-
-.title-img {
     animation: rotation 6s infinite alternate;
+    /* position: absolute; */
 }
   
 @keyframes rotation {
@@ -73,6 +76,9 @@ h1{
 
 #features {
     padding: 5% 15% 3.5%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
