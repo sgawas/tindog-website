@@ -202,3 +202,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media (max-width: 500px) {
+    .big-heading {
+        line-height: 1.5;
+        font-size: 2.5rem;
+    }
+
+    .testimonial-text {
+        line-height: 1.2;
+        font-size: 1.5rem;
+    }
+    
+    .pricing-text {
+        line-height: 1.2;
+        font-size: 1.5rem;
+    }
+}
