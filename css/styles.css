@@ -12,6 +12,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7% 15%;
 }
 
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Navigation bar */
 .navbar {
     padding-bottom: 4.5rem;
@@ -36,14 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* title section */
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
 
 #title .container-fluid {
     padding: 3% 10% 7%;
+    text-align: left;
 }
 .big-heading {
     line-height: 1.5;
@@ -86,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
 /* features section */
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -114,9 +118,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* testimonial section */
 
-#testimonials {
+#testimonials, #press {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -144,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
  /*  press section */
 #press{
      padding-bottom: 3%;
-     background-color: #ef8172;
 }
 
 .press-logo{
@@ -174,11 +176,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 2%;
 }
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 .social-icon {
     margin: 20px 10px;
 }
@@ -190,8 +187,18 @@ h1, h2, h3, h4, h5, h6 {
     }
     .title-img {
         position: static;
-        transform: rotate(0);
-        margin-left: 0%;
+        /* transform: rotate(0); */
+        margin-left: 15%;
+        animation: rotation 7s infinite alternate;
+    }
+
+    @keyframes rotation {
+        from {
+          transform: rotate(-25deg);
+        }
+        to {
+          transform: rotate(25deg);
+        }
     }
 }
 
