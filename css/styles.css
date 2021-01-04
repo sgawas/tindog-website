@@ -59,13 +59,13 @@ h1{
     transform: rotate(25deg);
     height: 100%;
     margin-left: 15%;
-    animation: rotation 6s infinite alternate;
+    animation: rotation 10s infinite alternate;
     /* position: absolute; */
 }
   
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+      transform: rotate(-45deg);
     }
     to {
       transform: rotate(45deg);
@@ -167,3 +167,39 @@ h2{
 #pricing h2, .card-header h3{
     font-weight: 800;
 }
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 15% 3.5%;
+    color: #fff;
+}
+
+.cta-heading{
+    font-family: 'Montaga-Black';
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+#footer {
+    padding: 80px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* media queries */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        margin-left: 0%;
+    }
+}
+
